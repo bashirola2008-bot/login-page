@@ -1,0 +1,126 @@
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #c6838c, #2f5697);
+}
+
+.container .content {
+  position: relative;
+  width: 450px;
+  height: 350px;
+}
+
+.content .form {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 100px 45px 45px;
+  background: #cebccc;
+  border-radius: 30px;
+  box-shadow: 0 1px 50px #42598f;
+  z-index: 1;
+}
+
+.form .user-icon {
+  position: absolute;
+  top: -65px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.user-icon img {
+  width: 130px;
+  padding: 20px;
+  height: 130px;
+  border-radius: 50%;
+  background: #3b6d85;
+  mix-blend-mode: multiply;
+}
+.user-icon img {
+  background-color: #2eb47a;
+}
+
+.form .input-content {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-content .input-icon {
+  width: 65px;
+  height: 100%;
+  background: #098143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: multiply;
+}
+.input-icon img {
+  width: 40px;
+}
+.input-content input {
+  width: 380px;
+  border: none;
+  background: #59917b;
+  padding: 0 20px;
+  font-size: 17px;
+  color: #fff;
+}
+input::placeholder {
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+
+.form .note {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  color: #0e744a;
+}
+.note a {
+  color: #0e744a;
+  text-decoration: none;
+}
+.content .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  transition: 0.8s;
+}
+.content:hover .btn {
+  bottom: -50px;
+}
+.btn button {
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  color: #0e744a;
+  font-weight: 600;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #cebccc;
+  cursor: pointer;
+  position: relative;
+}
+

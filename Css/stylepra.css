@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: white;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+h4 {
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 25px
+}
+.container .home-icon {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 187px;
+    top: 10px
+}
+.container .user-icon {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 210px;
+    top: 10px
+}
+.container .share {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 231px;
+    top: 10px
+}
+.content .more-icon {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 253px;
+    top: 10px
+}
+.box-icon {
+    width: 210px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 42px;
+    top: 25px;
+    mix-blend-mode: multiply;
+}
+.message {
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    left: 68px;
+    top: 30px;
+    font-family: calibri;
+    font-size: 38px;
+    position: relative;
+}
+.btn {
+    display: flex;
+    top: 75px;
+    position: relative;
+    left: 68px; 
+     flex-direction: row;
+     gap: 15px;
+     border-radius: 7px;
+}
+.btn button {
+    background: rgb(11, 231, 205);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+     background: rgb(11, 231, 205);
+}
